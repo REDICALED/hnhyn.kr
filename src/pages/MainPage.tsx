@@ -7,7 +7,7 @@ import { GitProjectListFashion, GitProjectListFine } from '@/atoms/GitAtom';
 import { getFunc } from '@/components/GitFunc';
 import { Octokit } from 'octokit';
 import fashionimages from '@/assets/images/button_text/main/fashionimages.png';
-import works from '@/assets/images/button_text/main/works.png';
+// import works from '@/assets/images/button_text/main/works.png';
 import hanhyeon_black from '@/assets/images/button_text/main/hanhyeon_black.png';
 
 
