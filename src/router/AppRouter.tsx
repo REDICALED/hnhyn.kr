@@ -1,5 +1,5 @@
 import { Outlet, ScrollRestoration, createBrowserRouter } from 'react-router-dom'
-import MainPage from '../pages/MainPage'
+// import MainPage from '../pages/MainPage'
 import FashionMain from '../pages/FashionMain'
 import FineMain from '../pages/FineMain'
 import AdminPage from '../pages/AdminPage'
@@ -13,7 +13,7 @@ const ScrollRestorationProvider = () => {
 const AppRouter = createBrowserRouter([
   {element: <ScrollRestorationProvider />,
     children: [
-    { path: '/', element:<MainPage/> },
+    { path: '/', element:<FashionMain/> },
     { path: '/fashion/:tags?', element:<FashionMain/> },
     { path: '/fine', element:<FineMain/> },
     { path: '/Admin', element:<AdminPage/> },
