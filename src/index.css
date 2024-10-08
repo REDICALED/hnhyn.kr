@@ -1,0 +1,38 @@
+
+  .text-with-hover-underline {
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .text-with-hover-underline::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+  }
+  
+  .text-with-hover-underline:hover::before {
+    width: 100%;
+  }
+
+  
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* body {
+    background-color: black;
+} */
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
