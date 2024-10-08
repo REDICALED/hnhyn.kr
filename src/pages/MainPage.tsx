@@ -74,11 +74,7 @@ const MainPage = () => {
         <img src={hanhyeon_black}/>
 
         </div>
-        <Link to='/fine' className=' mt-[3vh] mx-[10vw]'>
-            <img src={works}/>
-        </Link>
-        
-        <Link to='/fashion' className=' mt-[3vh] mx-[10vw]'>
+        <Link to='/fashion' className=' mt-[3vh] mx-[10vw] hover:opacity-70 transition-opacity'>
             <img src={fashionimages}/>
         </Link>
             <div></div>
